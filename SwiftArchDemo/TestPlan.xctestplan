@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "5DED2B21-B4C2-43A4-BEED-48B5EC526564",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SwiftArchDemo\/Modules",
+        "identifier" : "OnboardingTests",
+        "name" : "OnboardingTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SwiftArchDemo\/Modules",
+        "identifier" : "iTunesSearchTests",
+        "name" : "iTunesSearchTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SwiftArchDemo\/Modules",
+        "identifier" : "ServicesTests",
+        "name" : "ServicesTests"
+      }
+    }
+  ],
+  "version" : 1
+}
